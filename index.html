@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('./source/media/city-e.webp');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+/* unvisited link */
+a:link {
+ color: gray;
+}
+
+/* visited link */
+a:visited {
+ color: gray;
+}
+
+/* mouse over link */
+a:hover {
+ color: darkgray;
+}
+
+/* selected link */
+a:active {
+ color: white;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="middle">
+    <img src="./source/media/logo-large.png" alt="=BxK Logo" style="width:75%;height:75%;opacity: 0.65;">
+  </div>
+  <div class="bottomleft">
+    <p><a href="https://benandkayla.com/">Ben & Kayla</a></p>
+  </div>
+</div>
+
+</body>
+</html>
